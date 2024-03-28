@@ -4,8 +4,8 @@
 }
 body {
   font-family: "Handlee", cursive;
-  background-color: #ffbb64;
-  color: #ff4c4c;
+  background-color: #FA7070;
+  color: #FA7070;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffeaa7;
+  background-color: #FEFDED;
   padding: 2.5rem;
   border-radius: 1rem;
   height: 30vh;
@@ -30,17 +30,17 @@ body {
 }
 button {
   margin-top: 2rem;
-  background-color: #dcffb7;
+  background-color: #C6EBC5;
   font-family: "Handlee", cursive;
   width: 20vh;
   font-size: 1.5rem;
   padding: 0.5rem;
   cursor: pointer;
-  color: #fc7100;
+  color: #2C7865;
   transition-duration: 0.4s;
 }
 button:hover {
-  background-color: #ff6868;
+  background-color: #FA7070;
   color: white;
 }
 msg{
