@@ -1,40 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: "Handlee", cursive;
-    background-color: #FDE767;
-    color: #910A67;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+body {
+  font-family: "Handlee", cursive;
+  background-color: #ffbb64;
+  color: #ff4c4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 230, 230);
-    padding: 2.5rem;
-    border-radius: 1rem;
-    height: 30vh;
-    min-width: 50vh;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeaa7;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  height: 30vh;
+  min-width: 50vh;
 }
-.main p{
-    width: 100%;
-    font-size: 1.35rem;
-    margin-top: 2rem;
+.main p {
+  width: 100%;
+  font-size: 1.35rem;
+  margin-top: 2rem;
 }
-button{
-    margin-top: 2rem;
-    background-color: #6895D2;
-    color: white;
-    font-family: "Handlee", cursive;
-    width: 20vh;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    cursor: pointer;
+button {
+  margin-top: 2rem;
+  background-color: #dcffb7;
+  font-family: "Handlee", cursive;
+  width: 20vh;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #fc7100;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #ff6868;
+  color: white;
+}
+msg{
+    color: #ff0000;
 }
